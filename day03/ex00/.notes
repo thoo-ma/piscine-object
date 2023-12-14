@@ -1,0 +1,5 @@
+The single responsability is often a good thing.
+But as a wise man once said: `premature optimization is the root of all evil (or at least most of it) in programming`
+We could apply this priciple here, saying that for _one_ car the need to modularize it in many components (what we recognize here as the optimization) is premature.
+Won't be premature if in the future we anticipate, for instance, to have multiple cars that share the same engine, but not the same wheels.
+In a pedagogical perspective, working on a single object (here the car class) fully modularized with other objects (here) doesn not show the benefits of doing such. The code is just more verbose. The benefits of modularizing will show up when we would mix them up in different manners to create new cars thanks to new combinations of such modules. Here the code will be cleaner and non redundant.
